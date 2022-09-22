@@ -1,8 +1,6 @@
 # Churn-in-Telecom-s-dataset
 
-<img src="https://d1.awsstatic.com/customer-references-customer-content/AdobeStock_434719793_BAE.687d9b655f7eb111db46a4401271b519be59bef0.jpeg
-
-" width="1000" height="600">
+<img src="https://d1.awsstatic.com/customer-references-customer-content/AdobeStock_434719793_BAE.687d9b655f7eb111db46a4401271b519be59bef0.jpeg" width="1000" height="600">
 
 # Project aim
 The aim of this project is to retain more customers by looking into what factors are mostly attached to customers unsubscribing to a service in this case it is telecommunication service.

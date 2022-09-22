@@ -19,7 +19,7 @@ Scikit-Learn
 # Selection of data
 
 ### loading data
-df = pd.read_csv('churn.csv')
+
 * Importing necessary libraries
 * Loading dataset
 

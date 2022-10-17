@@ -5,7 +5,39 @@
 # Project aim
 The aim of this project is to retain more customers by looking into what factors are mostly attached to customers unsubscribing to a service in this case it is telecommunication service.
 
-# Libraries
+The data used is obtained from [Kaggle](https://www.kaggle.com/datasets/becksddf/churn-in-telecoms-dataset)
+
+## Project aim
+
+Build a classification model that predict whether a customer will pull out of the telecommunication service or not based on several factors lke state,area code,voice mail plan,charges,calls, minutes, international plan and churn.
+
+The target variable(churn) will be used to create a model that can determine whether a customer will churn or not by using binary 1 and 0 (1 means the loss of client, i.e. churn, 0 means no loss of client).
+
+## Data
+
+The data used is obtained from [Kaggle](https://www.kaggle.com/datasets/becksddf/churn-in-telecoms-dataset),which can also be found in the data folder in this project's GitHub repository.
+The dataset contains 3333 rows and 21 columns.
+
+## Defining Experimental design
+
+* Importing the relevant libraries used in the analysis.
+
+* Loading data
+
+* Exploratory Data Analysis (EDA)
+
+* Data Pre-processing
+
+* Modelling and Evaluation
+
+* Challenging the model
+
+* Conclusion
+
+* Recommendations
+
+
+## Libraries
 Python
 
 Pandas
@@ -16,7 +48,7 @@ Seaborn
 
 Scikit-Learn
 
-# Selection of data
+## Data exploration
 
 ### loading data
 

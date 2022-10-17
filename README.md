@@ -73,6 +73,9 @@ Churn is low for clients with a voice mail plan,with more number of voice mail m
 
 After building several classification models, Support Vector Machine classification model had the highest precision.
 
+![Screenshot (389)](https://user-images.githubusercontent.com/104419035/196152248-0b5b4293-795b-4c2d-a36a-f4408380bad0.png)
+
+
 ### loading data
 
 * Importing necessary libraries

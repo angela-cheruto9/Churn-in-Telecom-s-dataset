@@ -75,11 +75,11 @@ Below is a summary of a visualization that demonstrates the high and low churn r
 
 ![Screenshot (388)](https://user-images.githubusercontent.com/104419035/196146106-8459746f-2591-4048-ad98-1e6874513ac5.png)
 
-Churn is high for those with international plans, those who make several customer service calls especially more than 4 the churn rate seems to be pretty high.
+* Churn is high for those with international plans, those who make several customer service calls especially more than 4 the churn rate seems to be pretty high.
 
-Clients who make day calls also have a high churn rate than clients who make night calls this could probably be the charge rate for day calls being higher.
+* Clients who make day calls also have a high churn rate than clients who make night calls this could probably be the charge rate for day calls being higher.
 
-Churn is low for clients with a voice mail plan,with more number of voice mail messages, and those clients with a high number of international calls.
+* Churn is low for clients with a voice mail plan,with more number of voice mail messages, and those clients with a high number of international calls.
 
 ## Modelling and evaluation
 
@@ -100,19 +100,19 @@ Precision was used as our error metric for our algorithm, which is true positive
 Assigned the model a name and dumped it for later use.Checked the score of loaded model.
 
 ### Intepretation 
-Churn is high for those with international plans, those who make several customer service calls especially more than 4 the churn rate seems to be pretty high.
+* Churn is high for those with international plans, those who make several customer service calls especially more than 4 the churn rate seems to be pretty high.
 
-Clients who make day calls also have a high churn rate than clients who make night calls this could probably be the charge rate for day calls being higher.
+* Clients who make day calls also have a high churn rate than clients who make night calls this could probably be the charge rate for day calls being higher.
 
-Churn is low for clients with a voice mail plan,with more number of voice mail messages, and those clients with a high number of international calls.
+* Churn is low for clients with a voice mail plan,with more number of voice mail messages, and those clients with a high number of international calls.
 
-From the plots above we can say that clients from area code 415 seem to be the ones who churn the most compared to area code 408 and 510 and having a customer service centre could maybe help understand as to why clients in that area code seem to churn the most.
+* From the plots above we can say that clients from area code 415 seem to be the ones who churn the most compared to area code 408 and 510 and having a customer service centre could maybe help understand as to why clients in that area code seem to churn the most.
 
-Clients without an international plan also seem to churn more than clients with an international plan.
+* Clients without an international plan also seem to churn more than clients with an international plan.
 
-Clients without a voice mail plan also churn more than clients with a voice mail plan
+* Clients without a voice mail plan also churn more than clients with a voice mail plan
 
-Precision was used as our error metric for our algorithm, which is true positives / (false positives + true positives),which ensured that we minimize how much money we lose with false positives.We'd rather minimize our potential losses than maximize our potential gains.For this reason SVM is the preffered model because it maximizes on the true positives.
+* Precision was used as our error metric for our algorithm, which is true positives / (false positives + true positives),which ensured that we minimize how much money we lose with false positives.We'd rather minimize our potential losses than maximize our potential gains.For this reason SVM is the preffered model because it maximizes on the true positives.
 
 ## More Information
 For detailed information kindly refer to our Notebook and presentation slides found in the [Github repository](https://github.com/angela-cheruto9/Churn-in-Telecom-s-dataset)

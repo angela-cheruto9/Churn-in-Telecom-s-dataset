@@ -63,6 +63,15 @@ We started by detecting and dealing with missing values, datatype conversion, ch
 
 ![Screenshot (388)](https://user-images.githubusercontent.com/104419035/196146106-8459746f-2591-4048-ad98-1e6874513ac5.png)
 
+Churn is high for those with international plans, those who make several customer service calls especially more than 4 the churn rate seems to be pretty high.
+
+Clients who make day calls also have a high churn rate than clients who make night calls this could probably be the charge rate for day calls being higher.
+
+Churn is low for clients with a voice mail plan,with more number of voice mail messages, and those clients with a high number of international calls.
+
+## Modelling and evaluation
+
+After building several classification models, Support Vector Machine classification model had the highest precision.
 
 ### loading data
 

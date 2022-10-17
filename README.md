@@ -61,6 +61,9 @@ Data is highly imbalanced, as the ratio of the customers who churn and those who
 The datasets contains customers who churned and those who did not.
 We started by detecting and dealing with missing values, datatype conversion, checking and removing multicollinearity and analysis of variables against the target variable(churn).
 
+![Screenshot (388)](https://user-images.githubusercontent.com/104419035/196146106-8459746f-2591-4048-ad98-1e6874513ac5.png)
+
+
 ### loading data
 
 * Importing necessary libraries

@@ -59,7 +59,18 @@ Data is highly imbalanced, as the ratio of the customers who churn and those who
 ## Data preprocessing
 
 The datasets contains customers who churned and those who did not.
-We started by detecting and dealing with missing values, datatype conversion, checking and removing multicollinearity and analysis of variables against the target variable(churn).
+We started by detecting and dealing with missing values, datatype conversion, checking and removing multicollinearity,analysis of variables against the target variable(churn) and visualization of both numerical and categorical variables.
+
+### Summary of visualizations
+
+After visualizing the numerical and categorical features in our dataset, some few steps were taken:
+
+1.Standardizing numerical data.
+
+2.Converting categorical data into numerical data in order to enable building of a machine learning model.
+
+3.Dealing with some of the features that are skewed or have imbalanced data.
+
 
 ![Screenshot (388)](https://user-images.githubusercontent.com/104419035/196146106-8459746f-2591-4048-ad98-1e6874513ac5.png)
 
@@ -71,78 +82,21 @@ Churn is low for clients with a voice mail plan,with more number of voice mail m
 
 ## Modelling and evaluation
 
+I performed a train-test-split and asssigned y to our target variable.
+
 After building several classification models, Support Vector Machine classification model had the highest precision.
 
 ![Screenshot (389)](https://user-images.githubusercontent.com/104419035/196152248-0b5b4293-795b-4c2d-a36a-f4408380bad0.png)
 
+The train data had an accuracy score of 90% and a precision score of 97%
 
-### loading data
+SVM is the preffered model because the project aims to find out if there are any predictable patterns of the customers unsubcribing or leaving the company service, therefore, we maximize our true positives.
 
-* Importing necessary libraries
-* Loading dataset
-
-### Exploratory data analysis
-* Checking the shape of the dataset
-* Checking the datatypes in the dataset
-* Descriptive statistics of the dataset
-
-### Datatype conversion
-* Detecting and dealing with missing values
-
-
-# Data preprocessing
-* Checking for and removing multicollinearity (correlated predictors)
-* Identifying numerical features
-* Identifying categorical features
-* Visualization of the numerical features
-* Analysis of numerical variables against churn
-* Visualization of the categorical features
-* Univariate analysis
-* Distribution of churn(target variable) in the dataset
-* Bivariate analysis of categorical variables against churn
-
-# Data transformation
-* Joining categorical and numerical data
-* Joining categorical data to numerical data
-* Converting categorical data into numerical
-* Converting the categorical variables into numerical and avoiding dummy varibale trap
-
-### Summary of visualizations
-
-After visualizing the numerical and categorical features in our dataset, some few steps can then be taken:
-
-1.Standardizing numerical data
-
-2.Converting categorical data into numerical data in order to enable building of a machine learning model
-
-3.Dealing with some of the features that are skewed or have imbalanced data 
-
-### Perfoming train_test_split
-### Handling imbalanced data
-
-### Standardizing continuous variables
-* Standardizing the Dataset
-
-
-# Building a model
-* Fitting train data
-* Predictions
-* Getting the precision,accuracy,recall and f1_score
-
-* Random forest classifier
-* SVM
-* KNeighbors Classifier
-* Decision Tree Classifier
-* Gradient Boosting Classifier
-* Logistic regression
-* Performance of model
+Precision was used as our error metric for our algorithm, which is true positives / (false positives + true positives),which ensured that we minimize how much money we lose with false positives.We'd rather minimize our potential losses than maximize our potential gains. We are not overfitting the model because the accuracy score of the training data isn't far from the accuracy score of the test data.
 
 ### Pickling the model
 
-* Assigning a name to the model
-* Dumping the created model for later use
-* Calling the file 
-* Checking score of loaded model
+Assigned the model a name and dumped it for later use.Checked the score of loaded model.
 
 ### Intepretation and evaluation
 

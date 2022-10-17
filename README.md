@@ -71,6 +71,7 @@ After visualizing the numerical and categorical features in our dataset, some fe
 
 3.Dealing with some of the features that are skewed or have imbalanced data.
 
+Below is a summary of a visualization that demonstrates the high and low churn rate of clients.
 
 ![Screenshot (388)](https://user-images.githubusercontent.com/104419035/196146106-8459746f-2591-4048-ad98-1e6874513ac5.png)
 
@@ -114,7 +115,7 @@ Clients without a voice mail plan also churn more than clients with a voice mail
 Precision was used as our error metric for our algorithm, which is true positives / (false positives + true positives),which ensured that we minimize how much money we lose with false positives.We'd rather minimize our potential losses than maximize our potential gains.For this reason SVM is the preffered model because it maximizes on the true positives.
 
 ## More Information
-For detailed information kindly refer to our Notebook and presentation slides found in the [Github repository] ()
+For detailed information kindly refer to our Notebook and presentation slides found in the [Github repository](https://github.com/angela-cheruto9/Churn-in-Telecom-s-dataset)
 
 
 

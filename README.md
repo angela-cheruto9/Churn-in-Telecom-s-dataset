@@ -52,7 +52,14 @@ Scikit-Learn
 
 ![Screenshot (387)](https://user-images.githubusercontent.com/104419035/196142058-187c8132-cab0-426d-9039-94db1a572508.png)
 
-The False count added up to 2850 and True count was 483. False meaning the client did not churn and True meaning the client churned
+The False count added up to 2850 and True count was 483. False meaning the client did not churn and True meaning the client churned.
+
+Data is highly imbalanced, as the ratio of the customers who churn and those who don't churn is 86:14 . I then analysed the data with other features while taking the target value into consideration.
+
+## Data preprocessing
+
+The datasets contains customers who churned and those who did not.
+We started by detecting and dealing with missing values, datatype conversion, checking and removing multicollinearity and analysis of variables against the target variable(churn).
 
 ### loading data
 

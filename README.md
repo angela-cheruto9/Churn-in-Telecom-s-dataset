@@ -50,6 +50,8 @@ Scikit-Learn
 
 ## Data exploration
 
+![Screenshot (387)](https://user-images.githubusercontent.com/104419035/196142058-187c8132-cab0-426d-9039-94db1a572508.png)
+
 ### loading data
 
 * Importing necessary libraries
